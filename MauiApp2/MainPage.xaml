@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.MainPage">
+
+    <ScrollView>
+        <HorizontalStackLayout Spacing="10">
+            <VerticalStackLayout>
+                <ImageButton Source="first.jpg"
+                 x:Name="imageButton"
+                 HeightRequest="150"
+                 WidthRequest="150"
+                 Clicked="imageButton_Clicked"
+                 />
+                <Label Text="Expectation"
+           x:Name="imgBtn"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <ImageButton Source="one.jpeg"
+                 x:Name="imageButton2"
+                 HeightRequest="150"
+                 WidthRequest="150"
+                 Clicked="imageButton2_Clicked"
+                 />
+                <Label Text="Expectation"
+           x:Name="imgBtn2"/>
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+    </ScrollView>
+
+</ContentPage>
